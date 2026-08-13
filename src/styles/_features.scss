@@ -5,6 +5,10 @@ section#features-section{
     text-align: center;
     margin: 100px auto;
     display: block;
+    @media (max-width: 768px){
+        width: 350px;
+        margin: 0 auto;
+    }
 }
 .features{
 
@@ -18,11 +22,20 @@ section#features-section{
         line-height: 40px;
         color: variables.$corParagrafo;
         margin: 12px 0 100px 0;
+
+        @media (max-width: 768px){
+            font-size: 20px;
+            line-height: 20px;
+        }
     }
 
    &__content {
     display: flex;
     justify-content: center;
+
+    @media (max-width: 768px){
+        display: block;
+    }
 
         &__list {
             display: flex;
@@ -55,6 +68,10 @@ section#features-section{
             display: block;
             margin: 100px auto;
             box-shadow: 1px 1px 3px #333;
+
+            @media (max-width: 768px){
+                width: 350px;
+            }
         }
     }
 }

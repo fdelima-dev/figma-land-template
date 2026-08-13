@@ -6,6 +6,20 @@
         align-items: center;
         justify-content: space-between;
         margin: 50px 20% 20px 20%;
+
+        @media (max-width: 768px){
+            display: block;
+        }
+
+        &__img{
+            img{
+                @media (max-width: 768px){
+                    width: 320px;
+                    margin: 0 auto;
+                    display: block;
+                }
+            }
+        }
         &__field{
             
             h2{

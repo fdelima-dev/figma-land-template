@@ -6,6 +6,21 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 18% 0 18%;
+
+        @media (max-width: 768px){
+            display: block;
+            padding: 0;
+            text-align: center;
+            margin: 14px 0;
+        }
+
+        div{
+            img{
+                @media (max-width: 768px){
+                    width: 340px;
+                }
+            }
+        }
         h2{
             font-size: 48px;
             line-height: 40px;
@@ -27,6 +42,9 @@
             color: #fff;
             border-radius: 40px;
             cursor: pointer;
+            @media (max-width: 768px){
+                margin: 20px 0;
+            }
         }
     }
 }
