@@ -1,0 +1,32 @@
+@use 'variables';
+
+.fatest{
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 18% 0 18%;
+        h2{
+            font-size: 48px;
+            line-height: 40px;
+            font-weight: 400;
+        }
+        p{
+            font-size: 28px;
+            line-height: 40px;
+            color: variables.$corParagrafo;
+            font-weight: 400;
+        }
+        button{
+            border: none;
+            padding: 10px;
+            margin: 35px auto 0;
+            background-color: #007bff;
+            width: 236px;
+            height: 52px;
+            color: #fff;
+            border-radius: 40px;
+            cursor: pointer;
+        }
+    }
+}
